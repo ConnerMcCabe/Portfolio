@@ -1,7 +1,7 @@
 import React from 'react';
 import About from "../Component/About"
 import Contact from "../Component/Contact"
-import Proj from "../Component/Proj"
+import Proj from "../Component/Project"
 import './App.css';
 
 function App() {

@@ -12,9 +12,9 @@ function App() {
     <div className="App">
     <div className="navigation">
         <div className="navbar">
-          <Link to="/" className="item">Contact</Link>
-          <Link to="/projects" className="item">Portfolio</Link>
-          <Link to="/about" className="item">About</Link>
+          <Link to="/" className="navItem">Contact</Link>
+          <Link to="/projects" className="navItem">Portfolio</Link>
+          <Link to="/about" className="navItem">About</Link>
         </div>
     </div>
       <Route exact path="/" component={Contact} />

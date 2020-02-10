@@ -3,7 +3,8 @@ import React from "react"
 function Proj(props) {
   return (
     <div>
-      <h1>Soon to be Projects</h1>
+      <h1>Portfolio</h1>
+      <div>soon to be projects</div>
     </div>
   )
 }

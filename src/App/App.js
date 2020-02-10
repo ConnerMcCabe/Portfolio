@@ -13,7 +13,7 @@ function App() {
     <div className="navigation">
         <div className="navbar">
           <Link to="/" className="item">Contact</Link>
-          <Link to="/projects" className="item">Projects</Link>
+          <Link to="/projects" className="item">Portfolio</Link>
           <Link to="/about" className="item">About</Link>
         </div>
     </div>

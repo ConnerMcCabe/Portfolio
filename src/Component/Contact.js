@@ -5,26 +5,29 @@ let timer;
 let sec = 0;
 let min = 0;
 
-let start = document.getElementsByClassName('start')
-start.addEventListener('click', function() {
+function start() {
   timer = setInterval(timerHandler, 1000);
-})
-let stop = document.getElementsByClassName('stop')
-stop.addEventListener('click', function() {
+};
+function stop() {
   timer = clearInterval(timer);
-})
+};
+function clear() {
+  timer = clearInterval(timer);
+  sec = 0;
+  min = 0;
+}
 
 function timerHandler() {
   sec++;
-  if (sec = 60) {
+  if (sec === 60) {
     sec = 0;
     min++;
   }
   timerDisplay();
 }
 function timerDisplay() {
-  let secTime;
-  let minTime;
+  let secTime = sec;
+  let minTime = min;
   let timer_element = document.getElementById("timer");
   if (sec < 10) {
     secTime = "0" + sec;
@@ -43,10 +46,11 @@ function Contact(props) {
       <br />
       <input className="messagebox" placeholder="your message here"></input>
       <br />
-  <div id="timer">{timer}</div>
+  <div id="timer">00:00</div>
       <div className="buttons">
-        <button className="start">Start</button>
-        <button className="stop">Stop</button>
+        <button onClick={start} className="start">Start</button>
+        <button onClick={stop} className="stop">Stop</button>
+        <button onClick={clear} className="stop">Clear</button>
       </div>
       
     </div>

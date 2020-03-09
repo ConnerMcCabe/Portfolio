@@ -24,7 +24,7 @@ function timerHandler() {
     min++;
   }
   timerDisplay();
-}
+} 
 function timerDisplay() {
   let secTime = sec;
   let minTime = min;
@@ -50,7 +50,7 @@ function Contact(props) {
       <div className="buttons">
         <button onClick={start} className="start">Start</button>
         <button onClick={stop} className="stop">Stop</button>
-        <button onClick={clear} className="stop">Clear</button>
+        <button onClick={clear} className="clear">Clear</button>
       </div>
       
     </div>

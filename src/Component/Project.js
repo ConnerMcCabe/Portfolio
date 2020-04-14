@@ -5,7 +5,12 @@ function Proj(props) {
     <div className="projects">
       <h1>Portfolio</h1>
       <br></br>
-      <div>soon to be projects</div>
+      <div>
+        <ul>  
+          <li><img class="proj" src="./public/log.PNG" alt="logo"></img></li>
+          
+        </ul>
+      </div>
     </div>
   )
 }

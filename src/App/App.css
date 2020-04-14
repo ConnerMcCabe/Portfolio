@@ -34,6 +34,11 @@
   color: #edf0f1;
   text-decoration: none;
   padding: 10px;
+  transition: all 0.3s ease;
+}
+
+.navItem:hover {
+  color: #0088a9;
 }
 
 .about, .contact, .projects {
@@ -43,21 +48,12 @@
 }
 
 .bio, .messagebox {
-  width: 75vmin;
+  width: 100vmin;
   border-radius: 25px;
   border: 2px solid;
   padding: 20px; 
-      
 }
 
-/*timer stuff */
-#timer {
-  position: relative;
-  width: 150px;
-  padding: 15px;
-  background: darkorange;
-  border-radius: 8px 8px 0 0;
-}
 .buttons {
   width: 150px;
   padding: 15px;

@@ -7,7 +7,10 @@ function Proj(props) {
       <br></br>
       <div>
         <ul>  
-          <li><img class="proj" src="./public/log.PNG" alt="logo"></img></li>
+          <li>Message Board</li>
+          <li>Travel Board</li>
+          <li></li>
+          
           
         </ul>
       </div>

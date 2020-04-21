@@ -7,7 +7,7 @@ function Navbar(props) {
             <div className="navbar">
                 <Link to="/" className="navItem">Contact</Link>
                 <Link to="/projects" className="navItem">Portfolio</Link>
-                <Link to="/about" className="navItem">About</Link>
+                
             </div>
         </div>
     )

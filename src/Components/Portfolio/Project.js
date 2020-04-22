@@ -9,7 +9,7 @@ function Proj(props) {
         <ul>  
           <li>Message Board</li>
           <li>Travel Board</li>
-          <li></li>
+          <li>algorithms visualized</li>
           
           
         </ul>

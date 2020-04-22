@@ -14,25 +14,23 @@ function Contact(props) {
         </p>
       <a className="buttons" href="https://github.com/ConnerMcCabe" target="_blank" rel="noopener noreferrer">click here</a>
       <div className='container'>
-        <form>
-          <div className='formColumn'>
-            <label className='label'></label>
-            <input className='input'></input>
-          </div>
-          <div className='formColumn'>
-            <label className='label'></label>
-            <input className='input'></input>
-          </div>
-          
-
-        </form>
       <h1>Contact Me</h1>
       <p>Thanks for taking the time to reach out. How can I help you today?</p>
-      <input className="messagebox" placeholder="your message here"></input>
-      
+        <form>
+          <div className='formColumn'>
+            <label className='label'>Name</label>
+            <input className='input'></input>
+          </div>
+          <div className='formColumn'>
+            <label className='label'>Email</label>
+            <input className='input'></input>
+          </div>
+          <div className='messageColumn'>
+            <label className='label'>Message</label>
+            <textarea></textarea>
+          </div>
+        </form>
       </div>
-      
-  
     </div>
   )
 }

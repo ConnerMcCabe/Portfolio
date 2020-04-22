@@ -1,8 +1,8 @@
 import React from 'react';
-import Navbar from '../Component/Navbar/Navbar'
-import About from "../Component/About"
-import Contact from "../Component/Contact"
-import Proj from "../Component/Project"
+import Navbar from '../Components/Navbar/Navbar.js'
+import About from "../Components/Contact/About.js"
+import Contact from "../Components/Contact/Contact.js"
+import Proj from "../Components/Portfolio/Project.js"
 import { BrowserRouter, Route } from 'react-router-dom'
 import './App.css';
 

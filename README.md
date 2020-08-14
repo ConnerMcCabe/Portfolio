@@ -2,7 +2,8 @@
 
 
 
-
+### `clone the repo using git clone`
+### `navigate to folder`
 In the project directory, you can run:
 ### `npm i`
 ### `npm start`
@@ -10,8 +11,6 @@ In the project directory, you can run:
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
 ## Wireframes
 so from the start any functionality comes after a log in 

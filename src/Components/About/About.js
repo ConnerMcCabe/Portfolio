@@ -17,9 +17,7 @@ function About() {
             <h1>blog info</h1>
             <h1>timeline</h1>
           </div>
-          
       </div>
-      
     </div>
   )
 }

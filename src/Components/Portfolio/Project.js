@@ -1,8 +1,11 @@
 import React from "react"
 
-function Proj(props) {
+function Proj() {
   return (
     <div className="projects">
+      <div className="container">
+
+      
       <h1>Portfolio</h1>
       <br></br>
       <div>
@@ -13,6 +16,7 @@ function Proj(props) {
           
           
         </ul>
+      </div>
       </div>
     </div>
   )

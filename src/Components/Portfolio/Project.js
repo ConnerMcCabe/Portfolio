@@ -1,25 +1,16 @@
-import React from "react"
+import React, { useState } from "react";
+import axios from 'axios';
+import ProjectCards from './ProjectCards'
 
-function Proj() {
+const Portfolio = () => {
+  const [projects, updateProjects] = useState([]);
+  
   return (
-    <div className="projects">
-      <div className="container">
-
-      
-      <h1>Portfolio</h1>
-      <br></br>
-      <div>
-        <ul>  
-          <li>Message Board</li>
-          <li>Travel Board</li>
-          <li>algorithms visualized</li>
-          
-          
-        </ul>
-      </div>
-      </div>
+    <div className="projects-container">
+      {}
+      <ProjectCards />
     </div>
   )
 }
 
-export default Proj;
+export default Portfolio;

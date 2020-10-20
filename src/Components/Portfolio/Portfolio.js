@@ -4,11 +4,12 @@ import ProjectCards from './ProjectCards'
 
 const Portfolio = () => {
   const [projects, updateProjects] = useState([]);
+
+  
   
   return (
     <div className="projects-container">
-      {}
-      <ProjectCards />
+      {projects[0] ? projects.map( project => <ProjectCards {...project} />) : <> </>}
     </div>
   )
 }

@@ -5,7 +5,7 @@ import './App.css';
 import Navbar from '../Components/Navbar/Navbar.js'
 import About from "../Components/About/About.js"
 import Contact from "../Components/Contact/Contact.js"
-import Portfolio from "../Components/Portfolio/Project.js"
+import Portfolio from "../Components/Portfolio/Portfolio.js"
 
 
 function App() {

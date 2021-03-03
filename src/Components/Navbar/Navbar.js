@@ -11,8 +11,8 @@ function Navbar() {
                 <Link to="/about" className="navItem">About</Link>
             </div>
             <div className="nav-Connections">
-                <span>Link</span>
-                <span>Link</span>
+                <a className="buttons" href="https://github.com/ConnerMcCabe" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a className="buttons" href="https://www.linkedin.com/in/conner-p-mccabe/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
             </div>
         </div>
     )

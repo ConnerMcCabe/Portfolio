@@ -7,15 +7,11 @@ function About() {
         <h1>About Me</h1>
           <div>
             <p className="bio">
-              I'm an adaptable software developer that is into making creative problems to modern solutions
-              using the many different perspectives I've picked up along the way. I like to see the big picture 
-              and am all about breaking down problems into manageable solutions; give me a big enough whiteboard 
-              and I can conquer the world
+              I’m an adaptable web developer seeking a work that challenges me to remain nimble. 
+              I like to see the big picture and breaking down problems into manageable solutions; 
+              give me a big enough whiteboard and I can conquer the world.
+              And there is nothing more satisfying than the rush that comes with rising to meet a challenge. 
             </p>
-            
-          <a className="buttons" href="https://github.com/ConnerMcCabe" target="_blank" rel="noopener noreferrer">button</a> 
-            <h1>blog info</h1>
-            <h1>timeline</h1>
           </div>
       </div>
     </div>

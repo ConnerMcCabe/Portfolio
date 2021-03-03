@@ -9,7 +9,10 @@ function Navbar() {
                 <Link to="/contact" className="navItem">Contact</Link>
                 <Link to="/projects" className="navItem">Portfolio</Link>
                 <Link to="/about" className="navItem">About</Link>
-                
+            </div>
+            <div className="nav-Connections">
+                <span>Link</span>
+                <span>Link</span>
             </div>
         </div>
     )

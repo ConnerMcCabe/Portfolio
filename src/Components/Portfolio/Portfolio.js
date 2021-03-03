@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import axios from 'axios';
+// import axios from 'axios';
 import ProjectCards from './ProjectCards'
 
 const Portfolio = () => {
-  const [projects, updateProjects] = useState([]);
-
+  const [projects] = useState([]);
+  // , updateProjects
   
   
   return (

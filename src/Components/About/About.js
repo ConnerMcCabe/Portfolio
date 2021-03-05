@@ -6,6 +6,7 @@ function About() {
       <div className='container'>
         <h1>About Me</h1>
           <div>
+            <h1>I’m Conner, a Web Developer working with <span>Street Cat Digital</span> and freelance development in sunny Austin, Texas.</h1>
             <p className="bio">
               I’m an adaptable web developer seeking a work that challenges me to remain nimble. 
               I like to see the big picture and breaking down problems into manageable solutions; 

@@ -13,7 +13,6 @@ function Navbar() {
                 <Link to="/about" className="navItem">About</Link>
             </div>
             <div className="nav-Connections">
-                
                 <a className="navLink" href="https://github.com/ConnerMcCabe" target="_blank" rel="noopener noreferrer"><GitHubIcon /></a>
                 <a className="navLink" href="https://www.linkedin.com/in/conner-p-mccabe/" target="_blank" rel="noopener noreferrer"><LinkedInIcon /></a>
             </div>

@@ -1,13 +1,15 @@
-import React from "react"
+import React from "react";
+import "./About.css";
+import placeholder from "./generic.jpg"
 
 function About() {
   return (
     <div className="about">
       <div className='container'>
-        <h1>About Me</h1>
-          <div>
-            <h1>I’m Conner, a Web Developer working with <span>Street Cat Digital</span> and freelance development in sunny Austin, Texas.</h1>
-            <p className="bio">
+        <img className="headshot" src={placeholder} alt="head shot"/>
+          <div className="bio">
+            <h2>I’m Conner, a Web Developer working with <span>Street Cat Digital</span>and freelance development in sunny Austin, Texas.</h2>
+            <p>
               I’m an adaptable web developer seeking a work that challenges me to remain nimble. 
               I like to see the big picture and breaking down problems into manageable solutions; 
               give me a big enough whiteboard and I can conquer the world.

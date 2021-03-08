@@ -1,15 +1,15 @@
-import React, { useState } from "react";
-// import axios from 'axios';
+import React from "react";
 import ProjectCards from './ProjectCards'
+import './Portfolio.css'
 
-const Portfolio = () => {
-  const [projects] = useState([]);
-  // , updateProjects
-  
-  
+function Portfolio() {
   return (
-    <div className="projects-container">
-      {projects[0] ? projects.map( project => <ProjectCards {...project} />) : <> </>}
+    <div className="container">
+      <ProjectCards />
+      <ProjectCards />
+      <ProjectCards />
+      <ProjectCards />
+      <ProjectCards />
     </div>
   )
 }

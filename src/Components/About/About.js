@@ -6,9 +6,9 @@ function About() {
   return (
     <div className="about">
       <div className='container'>
-        <img className="headshot" src={placeholder} alt="head shot"/>
+        <img className="headshot" src={placeholder} alt="a placeholder"/>
           <div className="bio">
-            <h2>I’m Conner, a Web Developer working with <span>Street Cat Digital</span>and freelance development in sunny Austin, Texas.</h2>
+            <h2>I’m Conner, a Web Developer working with <span className="external-link">Street Cat Digital</span> and freelance development in sunny Austin, Texas.</h2>
             <p>
               I’m an adaptable web developer seeking a work that challenges me to remain nimble. 
               I like to see the big picture and breaking down problems into manageable solutions; 

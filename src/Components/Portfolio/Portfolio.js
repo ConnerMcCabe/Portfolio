@@ -4,7 +4,8 @@ import './Portfolio.css'
 
 function Portfolio() {
   return (
-    <div className="container">
+    <div className="cards">
+      <ProjectCards />
       <ProjectCards />
       <ProjectCards />
       <ProjectCards />

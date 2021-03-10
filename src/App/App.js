@@ -18,6 +18,12 @@ function App() {
         <Route exact path="/contact" component={Contact} />
         <Route path="/about" component={About} />
         <Route path="/projects" component={Portfolio} />
+        <section id="banner">
+						<div class="banner-header">
+							<h2>Looking for a Web Developer?</h2>
+							<p>My name is Conner and I can help you with that</p>
+						</div>
+					</section>
       </div>
     </BrowserRouter>
   );

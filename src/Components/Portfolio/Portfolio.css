@@ -1,7 +1,11 @@
 .card-container {
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    margin: 50px;
+    display: grid;
+    align-content: space-evenly;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    min-height: 100vh;
+    grid-gap: 2rem;
     padding: 0;
+    justify-content: space-evenly;
+    justify-items: center;
 }
